@@ -16,6 +16,7 @@ class PageSatu extends StatelessWidget {
         ),
         body: Center(
           child: ListView(
+            padding: EdgeInsets.all(16),
             children: <Widget>[
               ElevatedButton(
                   child: Text('Ke Page Dua'),
