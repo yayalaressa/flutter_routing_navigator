@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'color.dart'; // Class custom color palette
 // import page
 import './page/page_satu.dart';
 import './page/page_dua.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
       // debugShowCheckedModeBanner: false,
       title: 'Flutter Routing',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: ColorPalette.ungu,
       ),
       initialRoute: '/',
       routes: {
